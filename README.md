@@ -7,7 +7,7 @@ Data is saved in a file in the randomsound directory.
 Randomness in a computer is in general deterministic.
 Mixing the randomness from a deterministic algorithm with non-deterministic data from some "device" increases the security of cryptographic algorithms and methods.
 Examples for such "devices" are files, keyboard and mouse input, internet traffic or specific hardware devices like a sound card.
-However, if the device is correctly configured is not always clear, even though the software seems to work correctly.
+However, whether the device is correctly configured is not always clear, even though the software seems to work correctly.
 This version of randomsound writes a file (rsound.out) in the randomsound directory which contains the data directly derived from the sound card for further analysis.
 Make sure to delete rsound.out after each run or use the original randomsound program if you are sure that sound card is configured correctly.
 
