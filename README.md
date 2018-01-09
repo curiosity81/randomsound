@@ -9,7 +9,7 @@ Mixing the randomness from a deterministic algorithm with non-deterministic data
 Examples for such "devices" are files, keyboard and mouse input, internet traffic or specific hardware devices like a sound card.
 However, whether the device is correctly configured is not always clear, even though the software seems to work correctly.
 This version of randomsound writes a file (rsound.out) in the randomsound directory which contains the data directly derived from the sound card for further analysis.
-Make sure to delete rsound.out after each run or use the original randomsound program if you are sure that sound card is configured correctly.
+The file should be deleted after each run or the original randomsound program should be used if sound card was configured correctly.
 
 Deterministic randomness is generated from /dev/urandom.
 Non-deterministic randomness is kept in the entropy pool and provided by /dev/random.
