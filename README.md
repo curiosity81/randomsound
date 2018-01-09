@@ -46,6 +46,7 @@ Writing 512 bits of entropy to file
 Writing 512 bits of entropy to file
 Writing 512 bits of entropy to file
 ```
+While the program is running, request random data (see next point).
 
 ### Request random data
 In this case, use /dev/random and NOT /dev/urandom (see [this](https://stackoverflow.com/questions/23712581/differences-between-random-and-urandom) for the difference)!
