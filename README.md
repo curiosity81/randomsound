@@ -1,6 +1,6 @@
 # randomsound
-[Randomsound](http://archive.ubuntu.com/ubuntu/pool/universe/r/randomsound/randomsound_0.2.orig.tar.gz) fills the entropy pool using data derived from the sound card.
-This version of randomsound which writes data from sound card to file can be used for verifying randomness of the sound card.
+[Randomsound](http://archive.ubuntu.com/ubuntu/pool/universe/r/randomsound/randomsound_0.2.orig.tar.gz) fills the entropy pool using data derived from a sound card.
+This version of randomsound, which writes data from a sound card to a file, can be used to verify the randomness produced by the sound card.
 Data is saved in a file in the randomsound directory.
 
 ## Introduction
